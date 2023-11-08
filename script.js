@@ -37,7 +37,7 @@ resetButton.addEventListener("click", reset);
 // the display message to "You win", change the text of the reset button to "Play again"
 // and set the color of each circle and of the banner to be the color we were guessing. 
 // If the color you clicked on was incorrect, you should set the color of the circle you just clicked to be the default color 
-// and change the result text to be "Try again"
+// and change the result text to be "Try again
 function clickCircle() {
 	var clickedColor = this.style.backgroundColor;
 	if(clickedColor == pickedColor){
